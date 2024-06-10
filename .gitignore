@@ -1,0 +1,68 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace
+Godeps/
+
+# Log files
+*.log
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# React build artifacts
+build/
+*.log
+.cache/
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mac OS specific files
+.DS_Store
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore VS Code workspace files
+.vscode/
+
+# Ignore coverage directory used by tools like istanbul
+coverage/
+
+# Ignore API keys or other sensitive information
+*.key
+*.pem
+
+# Ignore output of `go run`
+*.out
+
+# Ignore binary output of Go build
+main
+
+# Ignore any file named 'output' that Go test might generate
+output
